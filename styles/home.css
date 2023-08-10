@@ -1,0 +1,12 @@
+@import url(styles.css);
+@import url(header.css);
+
+body { 
+    font-family: var(--font00);
+    font-size:  0.7rem;
+    font-weight: 300;
+
+    background-color: var(--cor00);
+    color: var(--cor02)
+}
+

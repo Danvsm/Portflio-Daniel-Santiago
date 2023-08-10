@@ -1,0 +1,24 @@
+.cabeca {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 8px 2px ;
+}
+
+.daniel {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.botão-menu {
+    width: 17px;
+}
+
+.texto-destaque {
+    color: var(--cor03);
+}
