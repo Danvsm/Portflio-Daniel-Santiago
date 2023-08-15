@@ -1,11 +1,19 @@
 @import url(styles.css);
 @import url(header.css);
+@import url(apresentacao.css);
+@import url(sobreMim.css);
+@import url(skill.css);
+@import url(slides.css);
+@import url(footer.css);
+@import url(slidesCards.css);
+@import url(rodape.css);
 
 body { 
     font-family: var(--font00);
-    font-size:  0.7rem;
+    font-size:  0.9rem;
     font-weight: 300;
-
+    line-height: normal;
+    
     background-color: var(--cor00);
     color: var(--cor02)
 }

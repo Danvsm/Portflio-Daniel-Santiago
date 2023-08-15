@@ -1,0 +1,139 @@
+.eu {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+
+    font-size: 8px;
+    font-family: var(--font01);
+    font-weight: 300;
+    
+    padding-top: 7rem;
+}
+
+
+.euDescricao {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: baseline;
+    font-size: .5rem;
+}
+
+.euDescricao-Titulo {
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 10px rgba(245, 245, 245, 0.308);
+    padding-right: 7px;
+}
+
+.euDescricao-subtitulo {
+    color: var(--cor03);
+
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.euDescricao-texto {
+    line-height: 132.523%;
+    text-align: justify;
+    width: 90%;
+    padding: .94rem 0.88rem 0 0 ;
+}
+
+.euImagem {
+    margin: auto;
+    height: 27vh;
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 375px) {
+    .eu {
+    font-weight: 400;
+    padding-top: 12rem;
+    padding-bottom: 7rem;
+
+    }
+    .euDescricao {
+        font-size: .7rem;
+    }
+    .euDescricao-Titulo {
+        font-size: 1.4rem;   
+    }
+    .euDescricao-subtitulo {
+        font-size: .8rem; 
+    }
+    .euDescricao-texto {
+        width: 92%;   
+    }
+    .euImagem {
+        height: 25vh;
+        padding-left: 2px;
+    }
+}
+
+
+@media screen and (min-width: 413px) {
+    .eu {
+    padding-bottom: 8rem;
+
+    }
+    .euDescricao {
+        font-size: .9rem;
+    }
+    .euDescricao-Titulo {
+        font-size: 1.4rem;   
+    }
+    .euDescricao-subtitulo {
+        font-size: .9rem; 
+    }
+    .euDescricao-texto {
+        width: 92%;   
+    }
+    .euImagem {
+        height: 25vh;
+        padding-left: 2px;
+    }
+}
+
+
+
+@media screen and (min-width: 900px) {
+    .eu {
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+        font-family: var(--font01);
+        font-weight: 300;
+        width: 100%;
+        padding-top: 30rem;
+        padding-bottom: 1rem;
+    }
+    
+    
+    .euDescricao {
+
+        font-size: 1.3rem;
+    }
+    
+    .euDescricao-Titulo {
+        font-size: 2.5rem;
+    }
+    
+    .euDescricao-subtitulo {
+        font-size: 1.2rem;
+    }
+    
+    .euDescricao-texto {
+        line-height: 132.523%;
+        text-align: justify;
+        width: 80%;
+        padding: .94rem 0.88rem 0 0 ;
+    }
+    
+    .euImagem {
+        margin: auto;
+        height: 80vh;
+        padding-left: 10px;
+    }
+  }
+
+

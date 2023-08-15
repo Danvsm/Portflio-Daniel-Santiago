@@ -1,0 +1,40 @@
+.rodape {
+    padding: 10px 10px;
+}
+
+.rodape p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.rodape-contato {
+    display: flex;
+    gap: 100px;
+}
+
+.rodape-contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape-contatos a {
+    font-size: .9rem;
+    font-weight: 600;
+    color: rgb(122, 188, 24);
+   
+}
+
+.rodape-contatos a:hover {
+    color: green;
+}
+
+.rodape-curriculo a {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(122, 188, 24);
+}
+
+
+.rodape-curriculo a:hover {
+    color: green;
+}

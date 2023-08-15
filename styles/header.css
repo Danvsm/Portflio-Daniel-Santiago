@@ -1,24 +1,51 @@
 .cabeca {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    background-color: var(--cor00);
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    padding: 8px 2px ;
+    padding: 8px 10px 8px 0 ;
 }
 
 .daniel {
     display: flex;
     align-items: baseline;
     gap: 4px;
-
+    
     font-size: 0.75rem;
     font-weight: 400;
 }
 
+.daniel > img {
+    padding-left: 5px;
+}
+
 .botão-menu {
     width: 17px;
+    padding-right: 10px;
 }
 
 .texto-destaque {
     color: var(--cor03);
+}
+
+@media screen and (min-width: 375px) {
+    .daniel {
+        font-size: 1rem;
+    }
+    .daniel-icone {
+       width: 22px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 414) {
+
 }
