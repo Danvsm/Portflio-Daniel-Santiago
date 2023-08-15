@@ -95,7 +95,7 @@
 }
 
 
-@media screen and (max-width: 1880px) {
+@media screen and (min-width: 1880px) {
     .skill {
         box-shadow: 1px 1px 100px black;
         
