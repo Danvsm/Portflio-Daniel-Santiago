@@ -129,6 +129,7 @@
   }
 }
 
+
 /* 1880px ou mais */
 @media screen and (min-width: 1880px) {
   .inicio {
@@ -163,7 +164,7 @@
 }
 
 /* 1916px ou mais */
-@media screen and (min-width: 1916px) {
+@media screen and  (min-width: 1000px) and (max-width: 2060px)  {
   .inicio {
     display: flex;
     flex-direction: column;
@@ -188,3 +189,4 @@
     width: 98px;
   }
 }
+
